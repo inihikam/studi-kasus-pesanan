@@ -18,10 +18,10 @@ public class Makanan {
         return nama + " ( " + jumlah + " X " + harga + " ) ";
     }
 
-    public int getJumlahHarga() {
+    public String getJumlahHarga() {
         Locale locale = new Locale("in", "ID");
         NumberFormat format = NumberFormat.getCurrencyInstance(locale);
         format.setMaximumFractionDigits(0);
-        return jumlah;
+        return format.format(harga*jumlah);
     }
 }

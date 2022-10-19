@@ -14,7 +14,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="text"
-        android:text="Menu" />
+        android:hint="Menu" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -27,7 +27,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:inputType="number"
-            android:text="Harga"/>
+            android:hint="Harga"/>
 
         <EditText
             android:id="@+id/jumlahMenu"
@@ -35,7 +35,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:inputType="number"
-            android:text="Jumlah"/>
+            android:hint="Jumlah"/>
 
     </LinearLayout>
 
@@ -79,7 +79,7 @@
             android:id="@+id/totalBiaya"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
+            android:layout_weight="2"
             android:layout_marginTop="10dp"/>
 
     </LinearLayout>
